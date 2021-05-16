@@ -1,0 +1,224 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Notebook</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/adaptive.css" />
+		<!-- Подключаем шрифты -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<!-- Demo styles -->
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<header>
+			<div class="container">
+				<header-inner>
+					<h1>Notebook</h1>
+						<div class="hamburger-menu">
+							<input id="menu__toggle"  type="checkbox" />
+							<label class="menu__btn" for="menu__toggle">
+							<span></span>
+							</label>
+							<ul class="menu__box">
+										<li><a class="menu__item" href="#">Home</a></li>
+										<li><a class="menu__item" href="#">Team</a></li>
+										<li><a class="menu__item" href="#">Our Story</a></li>
+										<li><a class="menu__item" href="#">Blog</a></li>
+										<li><a class="menu__item" href="#">Help</a></li>
+							</ul>
+						</div>
+						<nav class="header_menu">
+						
+						<ul class="header_list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Our Story</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</nav>
+				</header-inner>
+				<div class="banner">
+					<h2>Best Ideas Start On Paper</h2>
+					<h3>Revolutionary notebook with eco-friendly paper, advanced surface
+					technology and digital sharing integration.</h3>
+					<div class="btn_1"><a href="#">Order Now</a></div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="main_box1-wrapper">
+				<div class="container">
+					<div class="main-box1-inner">
+						<h2>Start prototyping your next project</h2>
+						<h3>Terry Richardson cardigan whatever gentrify Tumblr, gluten-free jean shorts cray Schlitz selvage DIY sustainable Helvetica sriracha. Banh mi ethical, put a bird on it VHS irony bicycle rights slow-carb literally retro skateboard ugh 90's Helvetica hashtag. Next level beard keffiyeh cornhole pork belly, slow-carb Schlitz. </h3>
+						<div class="img"><img src="img/pencil.png" alt="pencil"></div>
+					</div>
+				</div>
+			</div>
+			<div class="main_box2-wrapper">
+				<div class="container">
+					<div class="main_box2-wrapper">
+						<div class="banner2">
+							<h2>Works in any browser</h2>
+							<h3>Revolutionary notebook with eco-friendly paper, advanced surface technology and digital sharing integration.</h3>
+							<body>
+							  <!-- Swiper -->
+							  <div class="swiper-bg">
+							  <div class="swiper-container">
+							    <div class="swiper-wrapper">
+							      <div class="swiper-slide swiper-slide_1"></div>
+							      <div class="swiper-slide swiper-slide_2"></div>
+							      <div class="swiper-slide swiper-slide_3"></div>
+							      <div class="swiper-slide swiper-slide_4"></div>
+							    </div>
+							    <!-- If we need navigation buttons -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							    <!-- Add Pagination -->
+							    <div class="swiper-pagination"></div>
+							  </div>
+								</div>
+							  <!-- Swiper JS -->
+							  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+							  <!-- Initialize Swiper -->
+							  <script>
+							   var swiper = new Swiper('.swiper-container', {
+							      pagination: {
+							        el: '.swiper-pagination',
+							        type: 'fraction',
+							      },
+							      navigation: {
+							        nextEl: '.swiper-button-next',
+							        prevEl: '.swiper-button-prev',
+							      },
+							    });
+							</script>
+							<!-- <img src="img/window.png" alt="window"> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_box3-wrapper">
+				<div class="container">
+					<div class="main_box3-wrapper">
+							<div class="main-box1-inner">
+								<h2>Flexible pricing plans to fulfill your needs and solve your problems</h2>
+								<h3>Revolutionary notebook with eco-friendly paper, advanced surface technology and digital sharing integration.</h3>
+							</div>
+							<div class="flex_sale">
+								<div class="flex_box-1">
+									<div class="flex_box_head">
+										<h2>Forever Free</h2>
+									</div>
+									<div class="flex_box_center">
+										<h3>$0/month</h3>
+										<p>1 Notebook</p>
+										<p>3 Users</p>
+										<p>100 Shares</p>
+									</div>
+									<div class="flex_box_footer">
+										<a href="#" class="btn_2">Sign Up</a>
+									</div>
+								</div>
+								<div class="flex_box-2">
+									<div class="flex_box_head">
+										<h2>Professional</h2>
+										<h3>Most popular</h3>
+									</div>
+									<div class="flex_box_center">
+										<h3>$20/month</h3>
+										<p>20 Notebook</p>
+										<p>100 Users</p>
+										<p>Unlimited Shares</p>
+									</div>
+									<div class="flex_box_footer">
+										<a href="#" class="btn_2">Buy Now</a>
+									</div>
+								</div>
+								<div class="flex_box-3">
+									<div class="flex_box_head">
+										<h2>Enterprise</h2>
+									</div>
+									<div class="flex_box_center">
+										<h3>$100/month</h3>
+										<p>100 Notebook</p>
+										<p>Unlimited Users</p>
+										<p>Unlimited Shares</p>
+									</div>
+									<div class="flex_box_footer">
+										<a href="#" class="btn_2">Buy Now</a>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div class="box_text">
+						<div class="box_text1">
+							<h3>If you have got any questions related to pricing please get in touch with us using the form below.</h3>
+						</div>
+					</div>
+					
+				</div>
+				<div class="sendmail_wrapper">
+					<div class="container">
+						<div class="text-send">
+							<h2>Get in Touch</h2>
+							<h3>Got any questions? Feel free to get in touch with us. We would love to hear from you.</h3>
+						</div>
+						<div class="sendmail">
+							<input class="Name" type="text" placeholder="Name">
+							<input class="Email" type="mail" placeholder="Email">
+							<input class="Message" type="text" placeholder="Message">
+							<a href="" class="btn_3">Send</a>
+						</div>
+						<div class="social-ac">
+							<a href="https://twitter.com/?lang=ru" target="blank"><img src="img/Twitter.png"></a>
+							<a href="https://uk-ua.facebook.com/" target="blank" ><img src="img/Facebook.png"></a>
+							<a href="https://www.google.com/gmail/" target="blank"><img src="img/G+.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<footer-inner>
+					<h4>2020 ©  Despreneur. All rights reserved. Crafted in London.</h4>
+					<nav class="footer_nav">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">O.S.</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</nav>
+				</footer-inner>
+			</div>
+		</footer>
+		<script>
+			 if($('#menu-open').is(':visible'))
+ {
+    $('body').addClass("fixedPosition");
+ }
+ else
+ {
+    $('body').removeClass("fixedPosition");
+ }
+ .fixedPosition
+ {
+    position: fixed;
+ }
+		</script>
+	</body>
+</html>

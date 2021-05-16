@@ -1,0 +1,196 @@
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+.banner h2{
+	padding: 140px 0 30px 0;
+	font-size: 30px;
+}
+.banner h3{
+	font-size: 16px;
+	padding-bottom: 55px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+	h2{
+	font-size: 30px;
+    margin: 10px;
+}
+	h3{
+	font-size: 16px;
+    margin: 10px;
+}
+	.flex_sale{
+		flex-direction: column;
+		align-items: center;
+	}
+  .flex_box_footer{
+    padding-bottom: 20px;
+    padding-top: 5px;
+  }
+
+    .swiper-bg{
+  height: 375px;
+}
+.swiper-container {
+      top: 25px;
+      width: 600px;
+      height: 350px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+		h2{
+	font-size: 26px;
+}
+	h3{
+	font-size: 12px;
+}
+	.header_menu{
+		display: none;
+	}
+	.hamburger-menu{
+		display: contents;
+	}
+	.menu__btn{
+		right: 5%;
+	}
+	footer-inner{
+		flex-direction: column-reverse;
+	}
+	.footer_nav li{
+		margin: 10px;
+	}
+	footer-inner{
+		align-items: center;
+	}
+	.Name{
+	padding: 20px;
+	width: 300px;
+	background-color: #2d3035;
+	margin-bottom: 20px;
+	border: solid 3px #fff;
+	border-radius: 3px;
+}
+	.Email{
+		padding: 20px;
+		width: 300px;
+		background-color: #2d3035;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.Message{
+		padding: 20px;
+		width:300px;
+		background-color: #2d3035;
+		height: 110px;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.btn_3{
+		background-color: #a4b9be;
+		color: #2d3035;
+		font-weight: 700;
+		padding: 20px 126px 20px 126px ;
+		font-size: 18px;
+		border-radius: 3px;
+	}
+.swiper-bg{
+  height: 315px;
+}
+.swiper-container {
+      top: 25px;
+      width: 600px;
+      height: 290px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+      h2{
+  font-size: 22px;
+}
+  h3{
+  font-size: 10px;
+}
+  .swiper-bg{
+  height: 315px;
+}
+.swiper-container {
+      top: 25px;
+      width: 500px;
+      height: 290px;
+    }
+}
+@media screen and (max-width: 560px) {
+  .swiper-bg{
+  height: 315px;
+}
+.swiper-container {
+      top: 25px;
+      width: 450px;
+      height: 290px;
+    }
+}
+
+@media screen and (max-width: 490px){
+  .swiper-bg{
+  height: 285px;
+}
+.swiper-container {
+      top: 25px;
+      width: 400px;
+      height: 260px;
+    }
+}
+@media screen and (max-width: 430px){
+  .swiper-bg{
+  height: 255px;
+}
+.swiper-container {
+      top: 25px;
+      width: 350px;
+      height: 230px;
+    }
+    header{
+      height: 620px;
+    }
+}
+@media screen and (max-width: 370px){
+  .swiper-bg{
+  height: 225px;
+}
+.swiper-container {
+      top: 25px;
+      width: 310px;
+      height: 200px;
+    }
+    
+}
+
+
+
+/* iPhone 5 in landscape */
+@media only screen and (max-device-width : 320px){
+    .swiper-bg{
+  height: 195px;
+}
+.swiper-container {
+      top: 25px;
+      width: 260px;
+      height: 170px;
+    }
+}
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {}
+
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {}
